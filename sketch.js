@@ -54,7 +54,7 @@ function grid(){
       let posY = (height / tileCount) * gridY;
       let nudge = (-3, 3);
       
-      var toggle = int(random(0, 2));
+      var toggle = floor(random(1));
       
       //spin
       fill(random(100, 200), random(100), random(100))
